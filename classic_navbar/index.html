@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <div class="nav-wrapper">
+          <a class="brand-logo" href="#">BRAND NAME</a>
+          <button
+            class="mobile-nav-toggle"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars icon-menu" aria-hidden="true"></i>
+            <i class="fas fa-times icon-close" aria-hidden="true"></i>
+            <span class="hidden">Menu</span>
+          </button>
+          <nav id="primary-navigation" class="primary-navigation">
+            <ul aria-label="Primary" role="list" class="nav-list">
+              <li class="nav-link"><a href="#about">About</a></li>
+              <li class="nav-link"><a href="#gallery">Gallery</a></li>
+              <li class="nav-link"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <!-- <button class="primary-btn btn nav-menu-btn">MENU</button> -->
+        </div>
+      </div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
