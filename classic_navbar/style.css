@@ -189,11 +189,11 @@ header {
   }
   .primary-navigation[data-visible] {
     display: block;
+    position: fixed;
   }
   .primary-navigation {
     background-color: #fff;
     display: none;
-    position: fixed;
     padding: 4rem;
     /* inset : top right bottom left*/
     inset: 7rem 1rem auto;
