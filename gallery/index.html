@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-autoplay.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-comments.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-fullscreen.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-rotate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-share.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-thumbnail.min.css"
+    />
+    <title>Gallery</title>
+  </head>
+  <body>
+    <main>
+      <!--*********************** GALLERY SECTION *********************** -->
+      <section class="gallery-section">
+        <div class="container">
+          <h2 class="section-title">Gallery</h2>
+          <div id="gallery" class="gallery-grids">
+            <a href="./images/Mori.Calliope.full.3331317.jpg">
+              <img src="./images/Mori.Calliope.full.3331317.jpg" />
+            </a>
+
+            <a href="./images/Watson.Amelia.full.3164081.jpg">
+              <img src="./images/Watson.Amelia.full.3164081.jpg" />
+            </a>
+
+            <a href="./images/Cross-Over.full.2498557.jpg">
+              <img src="./images/Cross-Over.full.2498557.jpg" />
+            </a>
+
+            <a href="./images/Hakui.Koyori.full.3963090.jpg">
+              <img src="./images/Hakui.Koyori.full.3963090.jpg" />
+            </a>
+
+            <a href="./images/Hololive.full.2887846.jpg">
+              <img src="./images/Hololive.full.2887846.jpg" />
+            </a>
+
+            <a href="./images/Hololive.full.3378372.jpg">
+              <img src="./images/Hololive.full.3378372.jpg" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--*********************** END OF GALLERY SECTION *********************** -->
+    </main>
+    <script src="main.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"
+      integrity="sha512-dSI4QnNeaXiNEjX2N8bkb16B7aMu/8SI5/rE6NIa3Hr/HnWUO+EAZpizN2JQJrXuvU7z0HTgpBVk/sfGd0oW+w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      let gallery = lightGallery(document.getElementById("gallery"));
+      lightGallery(gallery, {
+        controls: true,
+      });
+    </script>
+  </body>
+</html>
